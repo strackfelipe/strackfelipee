@@ -1,31 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Projeto Front-End</title>
-        <style>
-            body {
-
-                background-color:#AAAAAA;
-
-            }
-            img {
-                 width: 200px;
-/*                 border-style: solid;
-                 border-width: 5px;
-                 border-color: #fafafa; */
-                 border: 5px solid #FAFAFA;
-                 border-radius: 100px;
-            }
-            H1 {
-                 color: rgb(166,0,33);
-                 text-align: center;
-                 background-color: #c4c4c4;
-                 
-            }
-        </style>
+        <link rel="stylesheet" href="estilos.css">
     </head>
     <body>
-        <img src="haha.png"
-        <h1>Deselvolvimento de Sistemas</h1>
+        <div class="comeco">
+
+            <img src="img/computacao.webp">
+            <h1 class="titulo">Desenvolvimento de Sistemas</h1>
+
+        </div>
+
+            <ul class="menu">
+                <li><a href="#inicio">Página Inicial</a></li>
+                <li><a href="#aulas">Matérias</a></li>
+                <li><a href="#localizacao">Instituto</a></li>
+                <li><a href="#js">JavaScript</a></li>
+                <li><a href="contatos/contato.html">Contato</a></li>
+            </ul>
+
+        <div id="inicio">
+
+            <h1 class="secoes">Projeto Front-End</h1>
+            <p>Esse projeto está sendo produzido com a ajuda dos professores e alunos do Regente Feijó.</p>
+            <br>
+            <iframe width="560" height="315" src="https://youtu.be/A1BaZr82XJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+        
+        <div id="aulas">
+
+            <h1 class="secoes">Matérias</h1>
+            <ul>
+                <li>Análise de Projetos e Sistemas</li>
+                <li>Programação Front-End.</li>
+                <li>Ciências da Computação.</li>
+                <li>Programação Mobile.</li>
+                <li>Banco de Dados.</li>
+            </ul>
+
+        </div>
+
+        <div id="localizacao">
+
+            <h1 class="secoes">Instituto</h1>
+            <p> O instituto onde este programa esta sendo desenvovido é no Regente Feijó.</p>
+            <p> Quer saber mais informações sobre o <a href="http://www.colegioregentefeijo.com.br">Regente?</a></p>
+
+        </div>
+
+        <div id="js">
+
+            <h1 class="secoes">JavaScript</h1>
+            <p>JavaScript é uma linguagem de script orientada a objetos e plataforma cruzada usada para tornar as páginas da Web interativas (por exemplo, com animações complexas, botões clicáveis, menus pop-up etc.). Há também versões mais avançadas do lado do servidor do JavaScript, como Node.js, que permitem adicionar mais funcionalidades a um site do que baixar arquivos (como colaboração em tempo real entre vários computadores). Dentro de um ambiente de host (por exemplo, um navegador da Web), o JavaScript pode ser conectado aos objetos de seu ambiente para fornecer controle programático sobre eles.</p>
+        </div>
+
+        <div id="final">
+
+            <p>Esse foi o meu site criado com a ajuda de alunos e professores do colégio Regente Feijó.</p>
+            <hr>
+            <p>clique <a href=https://www.alura.com.br>aqui</a> para aprender mais sobre programação.</p>
+
+        </div>
+
+        <script>
+            
+            var nome = window.prompt('qual o seu nome?');
+            window.alert('Seja bem vindo ' + nome + '!!!');//concatenação 
+            
+        </script>
     </body>
- </html>
+</html>
+
